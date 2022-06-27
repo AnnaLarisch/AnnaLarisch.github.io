@@ -45,7 +45,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
       } else {
         console.log('User dismissed the A2HS prompt');
       }
-      deferredPrompt = null;
+      //deferredPrompt = null;
     });
   });
 });
