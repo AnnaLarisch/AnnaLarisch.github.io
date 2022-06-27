@@ -9,7 +9,7 @@
       "type": "image/png"
     }
   ],
-  "name": "Simpsons Seasons",
-  "short_name": "Simpsons",
+  "name": "Add to home test",
+  "short_name": "A2HS",
   "start_url": "/pwa-examples/a2hs/index.html"
 }
