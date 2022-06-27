@@ -1,4 +1,4 @@
-const images = ['fox1', 'fox2', 'fox3', 'fox4'];
+const images = ['simpsons1', 'simpsons2', 'simpsons3', 'simpsons4'];
 const imgElem = document.querySelector('img');
 
 function randomValueFromArray(array) {
@@ -35,7 +35,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
   addBtn.addEventListener('click', () => {
     // hide our user interface that shows our A2HS button
-    //addBtn.style.display = 'none';
+    addBtn.style.display = 'none';
     // Show the prompt
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt
